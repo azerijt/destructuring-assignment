@@ -1,8 +1,8 @@
-function listFollowers(followerNames: string[]): string {
+function listFollowers([a,b]: followerNames): string {
   // complete function
   // use array destructuring, for practice!
-  console.log(followerNames)
-  const [a, b]= followerNames
+
+  //const [a, b]= followerNames
 
   return `Followed by ${a}, ${b} and others`;
 }
