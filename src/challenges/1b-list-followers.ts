@@ -1,7 +1,14 @@
-function listFollowers(followerNames: string[]): string {
+function listFollowers([a,b]: followerNames): string {
   // complete function
   // use array destructuring, for practice!
-  return "fails test right now";
+
+  //const [a, b]= followerNames
+
+  return `Followed by ${a}, ${b} and others`;
 }
 
 export default listFollowers;
+
+
+
+
